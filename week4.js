@@ -154,7 +154,7 @@ console.log(twoArrays([12, 4, 9, 7], [8, 3, 5, 1]))
   and returns true if it is hot outside and if moneyInPocket is greater than 10.50.`)
 
 let willBuyDrink = (isHotOutside, moneyInPocket) => {
-    if((isHotOutside = true) && (moneyInPocket > 10.50)){
+    if(isHotOutside == true && moneyInPocket > 10.50){
         return true
     } else{
         return false
@@ -171,7 +171,7 @@ console.log(`--------13.  Create a function of your own that solves a problem.
 In comments, write what the function does and why you created it.`)
 
 let canTakeANap = (isTired, hasTime) => {
-    if((isTired = true) && (hasTime = true)){
+    if(isTired && hasTime == true){
         console.log("I can take a nap!")
     }else{ 
         console.log("Sad, no nap today")
